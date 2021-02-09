@@ -1,0 +1,9 @@
+my:
+  name: SpringBoot-config
+  age: 22
+  number: ${random.int}
+  uuid: ${random.uuid}
+  max: ${random.int(10)}
+  value: ${random.value}
+  greeting: hi, i'm ${my.name}
+  version: 1.0
