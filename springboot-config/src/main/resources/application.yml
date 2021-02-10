@@ -7,3 +7,6 @@ my:
   value: ${random.value}
   greeting: hi, i'm ${my.name}
   version: 1.0
+spring:
+  profiles:
+    active: dev
